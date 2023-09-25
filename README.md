@@ -1,0 +1,2 @@
+# tunnel-polution-simlution-pyfluent
+为了高效分析隧道内发生交通阻滞时的污染物浓度分布，作者使用python第三方库Pyfluent语言对Fluent参数进行简化，开发出了属于公路隧道内污染物模拟仿真软件，同时为了方便用户便捷操作，使用Pyside2编写出GUI界面，提高了人机交互性。本软件还能够对Fluent数值模拟结果进行后处理，能够依赖于Pyfluent-Visualization第三方库进行后处理，得到隧道任意平面位置的云图，极大的方便了用户。
