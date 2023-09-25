@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QWidget" name="widget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>670</width>
+    <height>813</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_17">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="minimumSize">
+        <size>
+         <width>650</width>
+         <height>150</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>650</width>
+         <height>150</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/image/picture/图片3.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/image/picture/图片3.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+image: url(:/image/picture/标题栏.png);
+background-color: rgb(240, 215, 255);
+border-radius: 10px;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>picture/图片1.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="minimumSize">
+        <size>
+         <width>650</width>
+         <height>637</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>650</width>
+         <height>654</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">gridline-color: rgb(255, 0, 0);
+background-color: rgb(255, 216, 212);
+selection-background-color: rgb(255, 229, 241);
+background-color: rgb(255, 229, 241)</string>
+       </property>
+       <property name="tabShape">
+        <enum>QTabWidget::Triangular</enum>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <property name="movable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="tab">
+        <property name="minimumSize">
+         <size>
+          <width>625</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>677</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <attribute name="title">
+         <string>公路隧道污染物仿真模拟</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="styleSheet">
+              <string notr="true">font: 75 11pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>选择是否打开fluent GUI界面：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="showgui">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>显示GUI</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="nogui">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>不显示GUI</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="MESH">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>加载网格：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="mesh_file_path">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="placeholderText">
+              <string>请选择网格文件路径</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="file1">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(146, 129, 135);
+background-color: rgb(220, 255, 193);</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>重力加速度:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDoubleSpinBox" name="x_axis">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="specialValueText">
+              <string>x轴</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDoubleSpinBox" name="y_axis">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="specialValueText">
+              <string>y轴</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDoubleSpinBox" name="z_axis">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="specialValueText">
+              <string>z轴</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="energy_equ">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>激活能量方程</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>湍流方程：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="viscous">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>k-kl-w</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ke_realizable</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>kw_bsl</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>kw_geko</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>kw_sst</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>kw_standard</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QPushButton" name="Id_boundry">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+background-color: rgb(253, 222, 255);
+color: rgb(255, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>识别流体边界</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="CASE_2">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>边界条件：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="csv_file_path">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="placeholderText">
+              <string>导入边界条件表格</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="csv_file">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(220, 255, 193);</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="bounary">
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="lineWidth">
+            <number>4</number>
+           </property>
+           <property name="midLineWidth">
+            <number>2</number>
+           </property>
+           <property name="rowCount">
+            <number>0</number>
+           </property>
+           <attribute name="horizontalHeaderMinimumSectionSize">
+            <number>30</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>边界名称</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>边界条件</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>压力/风速/质量</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>温度</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>质量比</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>隧道出入口</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QCheckBox" name="initialization">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>进行初始化</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="CASE">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>案例文件：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="case_file_path">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="placeholderText">
+              <string>fluent案例case文件保存路径</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="file3">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(220, 255, 193);</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>求解方法：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="methods">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(254, 255, 148);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Coupled</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>PISO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>SIMPLE</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>SIMPLEC</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_10">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>求解步数：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="number">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="maximum">
+              <number>99999999</number>
+             </property>
+             <property name="singleStep">
+              <number>100</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="calulate">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+background-color: rgb(187, 255, 248);
+color: rgb(255, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>计算</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QLabel" name="RESULT">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>结果文件：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="cdat_file_path">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="placeholderText">
+              <string>计算结果cdat文件保存路径</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="file2">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(220, 255, 193);</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_11">
+               <property name="styleSheet">
+                <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+               </property>
+               <property name="text">
+                <string>控制台输出</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPlainTextEdit" name="o_put">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="documentTitle">
+              <string/>
+             </property>
+             <property name="undoRedoEnabled">
+              <bool>false</bool>
+             </property>
+             <property name="plainText">
+              <string/>
+             </property>
+             <property name="maximumBlockCount">
+              <number>0</number>
+             </property>
+             <property name="backgroundVisible">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>结果可视化及批量计算</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QGraphicsView" name="in_rplot">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGraphicsView" name="out_rplot">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <item>
+            <spacer name="horizontalSpacer_8">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="tunnel_in">
+             <property name="styleSheet">
+              <string notr="true">
+background-color: rgb(170, 255, 255);
+font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>隧道入口质量流率</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_7">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="tunnel_out">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(170, 255, 255);
+font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>隧道出口质量流率</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_10">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="Line" name="line_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 170, 127);</string>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_11">
+           <item>
+            <spacer name="horizontalSpacer_18">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_12">
+             <property name="styleSheet">
+              <string notr="true">font: 75 11pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>平面位置：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDoubleSpinBox" name="planevalue">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_9">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="styleSheet">
+              <string notr="true">font: 75 11pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>创建平面形式：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="planestyle">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 0);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>zx-plane</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>yz-plane</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>xy-plane</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_19">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="Line" name="line_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 170, 127);</string>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <item>
+            <spacer name="horizontalSpacer_22">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="polution">
+             <property name="styleSheet">
+              <string notr="true">
+background-color: rgb(170, 255, 255);
+font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>污染物浓度</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_20">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="show_mesh">
+             <property name="styleSheet">
+              <string notr="true">
+background-color: rgb(170, 255, 255);
+font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>显示网格</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_21">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="velocity">
+             <property name="styleSheet">
+              <string notr="true">
+background-color: rgb(170, 255, 255);
+font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>隧道风速</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_23">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="Line" name="line">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 170, 127);</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="CASE_4">
+             <property name="styleSheet">
+              <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>批量计算算例：结果文件默认保存在网格文件夹下，并于网格文件名称相同</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <widget class="QLabel" name="CASE_6">
+             <property name="styleSheet">
+              <string notr="true">font: 75 11pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>案例文件：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="case_setting_path">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="placeholderText">
+              <string>导入设置好的case文件</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="casefile">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(220, 255, 193);</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_14">
+           <item>
+            <widget class="QLabel" name="CASE_5">
+             <property name="styleSheet">
+              <string notr="true">font: 75 11pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>网格文件：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="mesh_floder">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="placeholderText">
+              <string>打开网格所在文件夹</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="meshfloder">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(220, 255, 193);</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_15">
+           <item>
+            <spacer name="horizontalSpacer_14">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="cal">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(220, 255, 193);
+color: rgb(255, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>计算</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_6">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(220, 255, 193);
+color: rgb(255, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>取消</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_15">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_16">
+           <item>
+            <spacer name="horizontalSpacer_16">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="CASE_7">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;</string>
+             </property>
+             <property name="text">
+              <string>计算进度：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QProgressBar" name="Bar1">
+             <property name="value">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_17">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="login.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+边界条件,边界名称,速度/压力/质量流率,平均水力直径,湍流率,混合物组成,温度,是否为隧道出入口
+velocity-inlet,jet_in,-32.4,1,0.05,"{""air"": {""option"": ""constant or expression"", ""constant"": 1}}",293,否
+velocity-inlet,jet_out,32.4,1,0.05,"{""air"": {""option"": ""constant or expression"", ""constant"": 1}}",293,否
+pressure-inlet,in,0,1,0.05,"{""air"": {""option"": ""constant or expression"", ""constant"": 1}}",293,隧道入口
+pressure-outlet,out,0,1,0.05,"{""air"": {""option"": ""constant or expression"", ""constant"": 1}}",293,隧道出口
+mass-flow-inlet,polution,0.001,1,0.05,"{""air"": {""option"": ""constant or expression"", ""constant"": 0.9999}}",323,否

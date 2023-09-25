@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="image">
+    <file>picture/标题栏.png</file>
+    <file>picture/图片11.png</file>
+    <file>picture/logo.png</file>
+    <file>picture/图片4.png</file>
+    <file>picture/图片3.png</file>
+    <file>picture/dbb44aed2e738bd4bacc7c97ac8b87d6267ff9a3.jpg</file>
+    <file>picture/back.jpg</file>
+    <file>picture/hui.jpg</file>
+    <file>picture/关闭窗口.png</file>
+    <file>picture/图片1.jpg</file>
+    <file>picture/图片2.png</file>
+    <file>picture/最小化.png</file>
+    <file>picture/1.png</file>
+    <file>picture/12.png</file>
+  </qresource>
+  <qresource prefix="标签">
+    <file>picture/图片4.png</file>
+  </qresource>
+</RCC>
